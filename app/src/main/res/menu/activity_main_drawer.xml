@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_baseline_other"
+            android:title="Strona główna" />
+        <item
+            android:id="@+id/nav_bread"
+            android:icon="@drawable/ic_baseline_bread"
+            android:title="Pieczywo" />
+        <item
+            android:id="@+id/nav_drink"
+            android:icon="@drawable/ic_baseline_drink"
+            android:title="Napoje" />
+        <item
+            android:id="@+id/nav_dishes"
+            android:icon="@drawable/ic_baseline_dishes"
+            android:title="Dania na gorąco" />
+        <item
+            android:id="@+id/nav_candy"
+            android:icon="@drawable/ic_baseline_candy"
+            android:title="Słodycze" />
+        <item
+            android:id="@+id/nav_snacks"
+            android:icon="@drawable/ic_baseline_snacks"
+            android:title="Przekąski" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_baseline_other"
+            android:title="Pozostałe" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_search"
+            android:title="Wyszukaj produkt" />
+    </group>
+</menu>
+

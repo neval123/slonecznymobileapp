@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_deals"
+    android:fontFamily="@font/sagona_book">
+    <fragment
+        android:id="@+id/nav_deals"
+        android:name="com.example.testapp.ui.deals.DealsFragment"
+        android:label="Strona główna"
+        tools:layout="@layout/fragment_deals" />
+
+    <fragment
+        android:id="@+id/nav_bread"
+        android:name="com.example.testapp.ui.bread.BreadFragment"
+        android:label="Pieczywo"
+        tools:layout="@layout/fragment_bread" />
+
+    <fragment
+        android:id="@+id/nav_drink"
+        android:name="com.example.testapp.ui.drink.DrinkFragment"
+        android:label="Napoje"
+        tools:layout="@layout/fragment_drink" />
+    <fragment
+        android:id="@+id/nav_dishes"
+        android:name="com.example.testapp.ui.hotdishes.DishesFragment"
+        android:label="Dania na gorąco"
+        tools:layout="@layout/fragment_dishes" />
+    <fragment
+        android:id="@+id/nav_candy"
+        android:name="com.example.testapp.ui.candy.CandyFragment"
+        android:label="Słodycze"
+        tools:layout="@layout/fragment_candy" />
+    <fragment
+        android:id="@+id/nav_snacks"
+        android:name="com.example.testapp.ui.snacks.SnacksFragment"
+        android:label="Przekąski"
+        tools:layout="@layout/fragment_snacks" />
+    <fragment
+        android:id="@+id/nav_other"
+        android:name="com.example.testapp.ui.other.OtherFragment"
+        android:label="Inne"
+        tools:layout="@layout/fragment_other" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.testapp.ui.search.SearchFragment"
+        android:label="Wyszukaj produkt"
+        tools:layout="@layout/fragment_search" />
+</navigation>

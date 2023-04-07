@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "91385564275",
+    "firebase_url": "https://sloneczny-6f0c0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sloneczny-6f0c0",
+    "storage_bucket": "sloneczny-6f0c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91385564275:android:f07ea2a7d6bdbc9932ae06",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91385564275-a8ra736fjdsboihog4kkb843ucm6lunc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHO1OcVW6oEpmG17ql7bPqcEL2NCbRFa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91385564275-a8ra736fjdsboihog4kkb843ucm6lunc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
